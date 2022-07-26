@@ -17,13 +17,14 @@
 /********************************** main section css **********************************/
 .main {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: var(--primary-color);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background: url("imgs/background.png");
   margin: auto;
-  justify-content: center;
 }
 
 .main .logo {
@@ -246,6 +247,16 @@ i {
 
 b {
   display: block;
+}
+
+/************************************* emi section *************************************/
+.emi {
+  /*  d-flex flex-wrap justify-content-center align-items-center py-5  */
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
 }
 
 .emi ul {

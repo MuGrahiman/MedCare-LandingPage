@@ -13,6 +13,8 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -24,14 +26,16 @@
 <body>
     <!-- main section with form  -->
     <section class="main py-5">
-        <div>
+        <div class="main-part1">
             <div>
                 <img src="imgs/logo.png" class="logo" alt="MedCare_LOGO">
                 <p class="text-white fw-semibold text-uppercase text-sm">Bangalore | Chennai | Hyderabad | Pune | +10
                     Cities
                 </p>
             </div>
+
             <p class="fs-1 text-white">Laser Treatment for Varicose Veins in your City</p>
+
             <div class="featureDiv">
                 <div class="bg-white rounded-3 m-2 text-center text-sm">
                     <img src="imgs/painless.png" class="w-50 m-1" alt="">
@@ -105,7 +109,7 @@
             </div>
         </div>
 
-        <div class="other-bg d-flex justify-content-center py-3">
+        <div class="stats-sec other-bg d-flex flex-wrap justify-content-center py-3">
             <div class="stats-item">
                 <img src="imgs/icon8.png" alt="">
                 <div>
@@ -142,9 +146,9 @@
     </section>
 
     <!-- advantages section  -->
-    <section class="container-fluid py-5 text-center">
+    <section class="advantage container-fluid py-5 text-center">
         <h5 class="fs-3 fw-normal blue-txt">Advantages of LASER treament for Varicose Veins</h5>
-        <p class="fs-6">Get rid of varicose with the latest LASER treament</p>
+        <p class="fs-6 text-sm">Get rid of varicose with the latest LASER treament</p>
 
         <table class="table w-50 mx-auto my-5">
             <thead>
@@ -203,7 +207,7 @@
     </section>
 
     <!-- medfin section  -->
-    <section class="container-fluid other-bg py-5 d-flex justify-content-center flex-wrap">
+    <section class="medfin container-fluid other-bg py-5 d-flex justify-content-center flex-wrap">
         <div>
             <h1 class="fs-0 fw-bold sec-ft text-start mt-2 mb-3">What can Medfin <br> help you with?</h1>
             <button class="button sec-bg ms-0 my-1">Request a call back</button>
@@ -226,7 +230,7 @@
     </section>
 
     <!-- faq section  -->
-    <section class="container-fluid py-5 text-center">
+    <section class="faq container-fluid py-5 text-center">
         <h2 class="fs-4 blue-txt py-3">Frequently Asked Questions about Varicose Veins</h2>
         <div class="ques">
             <div class="que" onclick="onHover(this)">
@@ -255,7 +259,7 @@
     </section>
 
     <!-- why you should choose -->
-    <section class="other-bg py-5 text-center">
+    <section class="whsc other-bg py-5 text-center">
         <h2 class="fs-4 pri-ft">Why you should choose Us</h2>
 
         <div class="container-fluid d-flex flex-wrap justify-content-around align-items-baseline w-50 py-4">
@@ -300,8 +304,8 @@
     </section>
 
     <!-- EMI section  -->
-    <section class="container-fluid d-flex justify-content-center align-items-center py-5 emi">
-        <div class="">
+    <section class="container-fluid emi">
+        <div>
             <p class="fs-2 pri-ft">
                 <b>Interest-free EMI available</b>
                 for Varicose Veins treatment
@@ -319,12 +323,11 @@
                 </li>
             </ul>
 
-            <div class="d-flex btns">
+            <div class="btns">
                 <button class="button sec-bg">Know More</button>
                 <button class="button blue-btn pri-bg">Call us on 7026200200</button>
             </div>
         </div>
-
 
         <div class="image">
             <img src="imgs/calender.png" alt="">
@@ -332,9 +335,9 @@
     </section>
 
     <!-- contact section  -->
-    <section class="container-fluid py-5 text-center other-bg">
-        <p class="fs-4 fw-semibold blue-txt">
-            High quality, Minimally Invasive LASER Treatment for <br> Varicose Veins At The Best Price Only At
+    <section class="container-fluid py-5 text-center other-bg contact">
+        <p class="fs-4 fw-semibold blue-txt w-50 mx-auto">
+            High quality, Minimally Invasive LASER Treatment for Varicose Veins At The Best Price Only At
             <span>Medfin</span>
         </p>
 
